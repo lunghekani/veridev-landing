@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/vxworkfl/repositories/veridev-landing
+    - /bin/cp -R images $DEPLOYPATH 

@@ -341,7 +341,7 @@ textarea.form-control {
 .crake-nav nav .navbar-nav li a {
   font-weight: 600;
   font-size: 17px;
-  color: #fff !important;
+  color: #ff8135 !important;
   padding: 0 !important;
   margin: 0 18px;
   position: relative;
@@ -355,7 +355,7 @@ textarea.form-control {
   top: 9px;
   width: 6px;
   height: 6px;
-  background: #fff;
+  background: #268b26;
   opacity: 0;
   border-radius: 50%;
   visibility: hidden;
@@ -676,7 +676,7 @@ textarea.form-control {
   background: #716c80;
 }
 .crake-nav.marketing-navbar.is-sticky {
-  background: #fff !important;
+  background: #00ddc5 !important;
 }
 .crake-nav.is-sticky {
   position: fixed;

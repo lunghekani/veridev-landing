@@ -7,7 +7,7 @@
 	$role = $_POST['role'];
 
 	// Database connection
-	$conn = new mysqli('164.160.91.44','vxworkfl_veridev','6!89UkUnapN','vxworkfl_veridev_mail');
+	$conn = new mysqli('localhost','vxworkfl_veridev','6!89UkUnapN','vxworkfl_veridev_mail');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);

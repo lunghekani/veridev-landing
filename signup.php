@@ -1,17 +1,26 @@
 <?php
-require '../connect.php'
+$servername = "164.160.91.44";
+$username = "username";
+$password = "6!89UkUnapN";
+$dbname = "vxworkfl_veridev";
 
-if(isset($_POST["submit"])){
-    $name = $_POST["fname"];
-    $lname = $_POST["lname"];
-    $email = $_POST["emailaddr"];
-    $cell = $_POST["cellno"];
-    $role = $_POST["role"];
-
-    $query = "INSERT INTO clients VALUES('', '$name', '$lname', '$email', '$cell', '$role')";
-
-    mysqli_query($conn, $query);
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
 }
+
+$sql = "INSERT INTO clients (name, last name, email, cell, role)
+VALUES ('John', 'Doe', 'john@example.com')";
+
+if ($conn->query($sql) === TRUE) {
+  echo "New record created successfully";
+} else {
+  echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
 ?>
 <!doctype html>
 <html lang="en">

@@ -1,3 +1,18 @@
+<?php
+require '../connect.php'
+
+if(isset($_POST["submit"])){
+    $name = $_POST["fname"];
+    $lname = $_POST["lname"];
+    $email = $_POST["emailaddr"];
+    $cell = $_POST["cellno"];
+    $role = $_POST["role"];
+
+    $query = "INSERT INTO clients VALUES('', '$name', '$lname', '$email', '$cell', '$role')";
+
+    mysqli_query($conn, $query);
+}
+?>
 <!doctype html>
 <html lang="en">
 

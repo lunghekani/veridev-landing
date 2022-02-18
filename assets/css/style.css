@@ -36,7 +36,7 @@ img {
 }
 p {
   font-size: 16px;
-  color: #818992;
+  color: #000;
   line-height: 1.6;
 }
 p:last-child {
@@ -138,6 +138,7 @@ button {
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 0;
+  color: #1a2848;
 }
 .section-title p {
   max-width: 650px;
@@ -1362,13 +1363,13 @@ textarea.form-control {
   background: #ffffff url("../img/bg-point.png") no-repeat fixed right -500px center/auto;
 }
 .main-banner.marketing-home .hero-content h1 {
-  color: #000;
+  color: #1a2848;
 }
 .main-banner.marketing-home .hero-content p {
-  color: #818992;
+  color: #000;
 }
 .main-banner.marketing-home .hero-content .video-btn {
-  color: #716c80;
+  color: #1a2848;
 }
 .main-banner.marketing-home .hero-content .video-btn:hover i,
 .main-banner.marketing-home .hero-content .video-btn:focus i {
@@ -3556,6 +3557,7 @@ textarea.form-control {
   font-size: 23px;
   font-weight: 700;
   margin-bottom: 8px;
+  color: #1a2848;
 }
 .single-team-member .team-content span {
   display: block;
@@ -4393,12 +4395,14 @@ textarea.form-control {
 }
 .partner-area .item {
   text-align: center;
+  
 }
 .partner-area .item a {
   display: block;
 }
 .partner-area .item a img {
   width: auto !important;
+  
 }
 .partner-area .owl-controls .owl-nav {
   margin-top: 0;
@@ -4412,8 +4416,8 @@ textarea.form-control {
   border-top: 1px dashed #edf5ff;
 }
 .partner-area.software-partner {
-  border-bottom: 1px dashed #edf5ff;
-  border-top: none;
+  border-bottom: 3px solid #ff8135;
+  border-top: 3px solid #ff8135;
 }
 .partner-area.startup-partner {
   border-bottom: 1px dashed #edf5ff;
@@ -5553,6 +5557,7 @@ textarea.form-control {
 }
 .faq-accordion .accordion .accordion-item .accordion-content {
   display: none;
+  color: black;
   position: relative;
   overflow: hidden;
   padding: 15px 15px 0;
@@ -5560,6 +5565,7 @@ textarea.form-control {
 }
 .faq-accordion .accordion .accordion-item .accordion-content.show {
   display: block;
+  color: black;
 }
 .faq-contact {
   margin-top: 45px;

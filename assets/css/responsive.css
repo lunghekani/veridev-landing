@@ -890,6 +890,7 @@
   .faq-accordion .accordion .accordion-item .accordion-title {
     padding: 16px 20px;
     font-size: 17px;
+    color: #1a2848;
   }
   .faq-contact {
     margin-top: 30px;
@@ -899,6 +900,7 @@
   }
   .faq-contact h3 {
     font-size: 27px;
+    color: #1a2848;
   }
   .pagination-area {
     margin-top: 30px;

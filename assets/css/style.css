@@ -549,7 +549,7 @@ textarea.form-control {
   position: relative;
   width: 8px;
   height: 8px;
-  background: #fff;
+  background: #284cf9;
   display: block;
   border-radius: 50%;
   margin-bottom: 2px;
@@ -564,7 +564,7 @@ textarea.form-control {
   top: 0;
   width: 8px;
   height: 8px;
-  background: #fff;
+  background: #284cf9;
   border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -577,7 +577,7 @@ textarea.form-control {
   width: 8px;
   height: 8px;
   margin-bottom: 2px;
-  background: #fff;
+  background: #284cf9;
   display: block;
   border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
@@ -591,7 +591,7 @@ textarea.form-control {
   top: 0;
   width: 8px;
   height: 8px;
-  background: #fff;
+  background: #284cf9;
   border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -603,7 +603,7 @@ textarea.form-control {
   position: relative;
   width: 8px;
   height: 8px;
-  background: #fff;
+  background: #284cf9;
   margin-bottom: 2px;
   display: block;
   border-radius: 50%;
@@ -618,7 +618,7 @@ textarea.form-control {
   top: 0;
   width: 8px;
   height: 8px;
-  background: #fff;
+  background: #284cf9;
   border-radius: 50%;
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;

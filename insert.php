@@ -35,6 +35,7 @@ if(!empty($fname)||!empty($lname)||
             $stmt->bind_param("ssssss",$fname, $lname, $email, $role, $cell, $contact);
             if ($stmt->execute()) {
                 echo "New record inserted sucessfully.";
+                header("Location: https://www.canva.com/design/DAE6H3y4C34/YG_d-pZWbk-1D6zrgyd1Yg/view?utm_content=DAE6H3y4C34&utm_campaign=designshare&utm_medium=link&utm_source=shareyourdesignpanel#22");
             }
             else {
                 echo $stmt->error;
